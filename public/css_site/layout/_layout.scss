@@ -1,0 +1,54 @@
+.l-rtl{
+  direction: rtl;
+}
+.l-ltr{
+  direction: ltr;
+}
+.l-autoWidth{
+  width:  auto !important;
+}
+.l-autoHeight{
+  height:  auto !important;
+}
+.l-outerLine{
+  border: 1px solid lightslategrey;
+}
+.l-autoMargin{
+  margin: auto;
+}
+.l-hidden{
+  visibility: hidden;
+}
+.l-noneDisplayed{
+  display: none;
+}
+.l-displayed{
+  display: block;
+}
+.l-fullPage{
+  width: 100%;
+  height: 100%;
+}
+.l-topCornered{
+  border-radius: 5px 5px 0 0;
+}
+.l-absolute{
+  position: absolute;
+  width: 100%;
+}
+.l-modal{
+  border-radius: 20px !important;
+  border: none !important;
+}
+
+#loginModal,#signupModal{
+  .table {
+    display: table;
+    height:100%;
+  }
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+

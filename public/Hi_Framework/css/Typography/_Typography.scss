@@ -1,0 +1,7 @@
+/* ============[ For loop to create font size css ]=========== */
+
+@for $i from 1 to 50 {
+  .hi-lineHeight-#{$i} {
+    line-height: #{$i}px;
+  }
+}

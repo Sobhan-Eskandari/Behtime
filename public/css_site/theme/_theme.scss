@@ -1,0 +1,113 @@
+.btn-flat-theme{
+  background-color: $sabz;
+  color: white;
+  border: transparent;
+}
+
+.btn-round-theme{
+  background-color: transparent;
+  color: $sabz;
+  border: 2px solid $sabz;
+}
+
+.btn-round-filled-theme{
+  background-color: $sabz;
+  color: white;
+  border: 2px solid $sabz;
+}
+
+.filled-Indigo{
+  background-color: darkslateblue;
+  color: white;
+  border: 2px solid darkslateblue;
+}
+
+.sormeie-theme{
+  color: $sormeie;
+}
+.sormeie-bc-theme{
+  background-color: $sormeie;
+}
+.tosi-theme{
+  color: $tosi;
+}
+.khakestari-bc-theme{
+  background-color: $khakestarie-roshan !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  border-top: 4px solid indigo !important;
+}
+.nav-tabs{
+  border-bottom: none !important;
+}
+
+//----------- [ Typography Style ] -----------
+.dinar-title{
+  font-family: 'Dinar_medium' !important;
+}
+.dinar-title-thin{
+  font-family: 'Dinar_light' !important;
+}
+
+.frab-title{
+  font-family: 'Frabk' !important;
+}
+.paragraph-lineHeight{
+  line-height: 40px;
+}
+
+.thin-title{
+  font-weight: $font-weight--thin !important;
+}
+.medium-title{
+  font-weight: $font-weight--medium !important;
+}
+
+//----------- [ Line Style ] -----------
+.line-theme{
+  border-top: 1px solid $tosi-roshan;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.green-line{
+  border-top: 1px solid $sabz;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.dottedLine-theme{
+  border-top: 3px dotted $sormeie;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.white-line-theme{
+  border-top: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+//----------- [ Borders Style ] -----------
+.borderBottom-theme{
+  border-bottom: 1px solid $tosi-roshan;
+}
+.borderRight-theme{
+  border-right: 1px solid $tosi-roshan;
+}
+.borderLeft-theme{
+  border-left: 1px solid $tosi-roshan;
+}
+.border-theme{
+  border: 1px solid $sormeie;
+}
+
+.top-round-20{
+  border-radius: 20px 20px 0 0 !important;;
+}
+
+.top-rightCornered.active{
+  border-top-right-radius: 20px !important;
+}
+.no-border{
+  border:none !important;
+}
+
