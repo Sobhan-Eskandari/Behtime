@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Behtime</title>
+    <meta name="description" content="محلی برای خرید و فروش آسان محصولات فروشگاه های معتبر">
+    <meta name="author" content="به تایم">
+    <title>فروشگاه اینترنتی به تایم</title>
 {{--<link rel="icon" href="../../favicon.ico">--}}
 
 
@@ -70,7 +70,7 @@
                     </div>
 
                     <div class="col-xl-2 col-lg-3 col-sm-3 col-6">
-                        <img class="hi-size-7p" src="{{asset('images/logo.png')}}">
+                        <img class="hi-size-4p" src="{{asset('images/logo.png')}}">
                     </div>
 
                     <div class="col-xl-2 col-lg-3 col-sm-4 col-6 l-ltr">
@@ -1305,7 +1305,7 @@
                             <div class="col-6">
                                 <img class="hi-size-13" src="{{asset('images/enamad.png')}}">
                             </div>
-                            <div class="col-6">
+                            <div class="col-4">
                                 <img class="img-fluid" src="{{asset('images/logo.png')}}">
                             </div>
                         </div>

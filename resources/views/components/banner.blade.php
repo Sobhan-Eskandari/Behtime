@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12 m-aboutUsImg text-center">
-            <img class="hi-size-2p mt-5" src="{{asset('images/logo.png')}}">
+            <img class="hi-size-13 mt-5" src="{{asset('images/logo.png')}}">
             <div class="aboutus-title l-absolute">
                 <h1 class="dinar-title hi-fontSize-28 white-text">فروشگاه مجازی آنلاین بهتایم</h1>
                 <hr class="m-halfLine">

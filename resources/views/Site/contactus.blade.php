@@ -4,7 +4,7 @@
 
     @component('components.banner')@endcomponent
 
-    <div class="container mt-5">
+    <div class="container my-5">
         <div class="row text-center">
             <div class="col-12">
                 <h1 class="hi-fontSize-29 indigo-text dinar-title"> نظرات خود را برای ما بفرستید</h1>

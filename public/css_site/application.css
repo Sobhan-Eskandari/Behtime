@@ -204,7 +204,7 @@ table {
   height: 450px;
   margin-top: 30px;
   border: 5px solid #ebebeb;
-  background: url("../../public/images/banner.jpg") no-repeat;
+  background: url("/images/banner.jpg") no-repeat;
   background-size: cover; }
 
 .aboutus-title {
@@ -251,8 +251,7 @@ table {
 .m-halfLine {
   border-top: 2px solid white;
   width: 40%;
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  margin: 10px auto; }
 
 .m-fullLine {
   border-top: 1px solid lightslategrey;
