@@ -117,8 +117,7 @@
 }
 .m-fullLine{
   border-top: 1px solid lightslategrey;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 15px auto;
 }
 .m-doubleSideBorder{
   border-right: 1px solid lightslategrey;
@@ -394,6 +393,9 @@
 @media (max-width: 767px) {
   .topStores-carousel-cell{
     width: 100% !important;
+  }
+  .carousel-cell{
+    height: 200px;
   }
 }
 

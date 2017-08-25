@@ -36,9 +36,12 @@
         <div class="row">
             <div class="col-3 col-md-3 col-xl-4 col-lg-4 align-self-center">
                 <div class="m-card p-2 indigo">
-                    <button class="hi-button-btn1 l-autoMargin">
+                    {{--<button class="hi-button-btn1 l-autoMargin" data-toggle="modal" data-target="#purchaseModal">--}}
+                        {{--<i class="fa fa-2x white-text fa-cart-plus"></i>--}}
+                    {{--</button>--}}
+                    <a class="hi-button-btn1 l-autoMargin" href="#purchaseModal2">
                         <i class="fa fa-2x white-text fa-cart-plus"></i>
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="col-7 col-md-7 col-xl-8 col-lg-8 py-3 text-right">

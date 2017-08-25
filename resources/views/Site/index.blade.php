@@ -4,7 +4,7 @@
 
     <div class="cd-main-content">
         <!-- Gallery of Images -->
-        <div class="carousel" data-flickity>
+        <div class="carousel" data-flickity='{ "rightToLeft": true,"adaptiveHeight": true }'>
             <div class="carousel-cell"><img src="{{asset('images/shop3.jpg')}}"></div>
             <div class="carousel-cell"><img src="{{asset('images/shop1.png')}}"></div>
             <div class="carousel-cell"><img src="{{asset('images/shop2.gif')}}"></div>

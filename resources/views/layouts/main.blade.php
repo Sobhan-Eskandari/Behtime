@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="محلی برای خرید و فروش آسان محصولات فروشگاه های معتبر">
-    <meta name="author" content="به تایم">
-    <title>فروشگاه اینترنتی به تایم</title>
+    <meta name="author" content="بهتایم">
+    <title>فروشگاه اینترنتی بهتایم</title>
 {{--<link rel="icon" href="../../favicon.ico">--}}
 
 
@@ -57,20 +57,20 @@
                     </div>
                     <div class="col-xl-1 col-lg-2 col-sm-2 col-6 pr-0 align-items-center">
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button data-toggle="modal" class="hi-button-btn1 hi-fontSize-14" data-target="#loginModal">
+                            <a class="hi-button-btn1 hi-fontSize-14" href="#loginModal">
                                 <b class="m-underLined">ورود</b>
-                            </button>
+                            </a>
                             <button data-toggle="modal" class="hi-button-btn1 hi-fontSize-14">
                                 &nbsp;&nbsp;یا&nbsp;&nbsp;
                             </button>
-                            <button data-toggle="modal" class="hi-button-btn1 hi-fontSize-14" data-target="#signupModal">
+                            <a class="hi-button-btn1 hi-fontSize-14" href="#signupModal">
                                 <b class="m-underLined">عضویت</b>
-                            </button>
+                            </a>
                         </div>
                     </div>
 
                     <div class="col-xl-2 col-lg-3 col-sm-3 col-6">
-                        <img class="hi-size-4p" src="{{asset('images/logo.png')}}">
+                        <a href="#"><img class="hi-size-4p" src="{{asset('images/logo.png')}}"></a>
                     </div>
 
                     <div class="col-xl-2 col-lg-3 col-sm-4 col-6 l-ltr">
@@ -81,6 +81,7 @@
                     </div>
                 </div>
 
+                <!-- Mega Menu Section -->
                 <div class="container" id="Megamenu-nav">
                     <nav>
                         <div class="row l-rtl" id="megaMenu">
@@ -1399,7 +1400,7 @@
             <div class="container-fluid indigo">
                 <div class="row justify-content-center py-3">
                     <div class="col-12 text-center">
-                        <h2 class="white-text hi-fontSize-13 hi-lineHeight-22">تمامی حقوق مادی و معنوی این سایت متعلق به فروشگاه آنلاین بهتام میباشد - توسعه توسط گروه ایمگنا copyright(c) 2017-2018</h2>
+                        <h2 class="white-text hi-fontSize-13 hi-lineHeight-22">تمامی حقوق مادی و معنوی این سایت متعلق به فروشگاه آنلاین بهتایم میباشد - توسعه توسط گروه ایمگنا copyright(c) 2017-2018</h2>
                     </div>
                 </div>
             </div>
@@ -1548,163 +1549,230 @@
         </ul>
     </div>
 
-    <!-- Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="table">
-            <div class="table-cell">
-                <div class="modal-dialog">
-                    <div class="modal-content l-modal">
-                        <button class="hi-button-btn1 m-closeModal" id="closeLogin"><i class="fa fa-close fa-3x"></i> </button>
-                        <h1 class="hi-fontSize-20 indigo-text dinar-title text-center m-5">ورود به بهتایم</h1>
-                        <p class="text-center mt-2 hi-fontSize-13">قبلا در بهتایم ثبت نام نگرده‌اید؟ <span class="indigo-text m-underLined"><a href="#"> ثبت نام</a></span> </p>
 
-                        <!-- Login Fileds -->
-                        <div class="row justify-content-center mt-3">
-                            <div class="col-7">
-                                <form>
-                                    <input class="m-round-input mt-4 grey lighten-4" type="email" placeholder="پست الکترونیکی خود را وارد کنید">
-                                    <input class="m-round-input mt-4 grey lighten-4" type="email" placeholder="کلمه عبور خود را وارد کنید">
-                                    <label class="custom-control custom-checkbox mt-4">
-                                        <input type="checkbox" class="custom-control-input">
-                                        <span class="custom-control-indicator"></span>
-                                        <span class="custom-control-description hi-fontSize-12">مرا به خاطر بسپار</span>
-                                    </label>
-                                    <div class="row justify-content-center">
-                                        <div class="col-auto">
-                                            <button type="submit" class="m-btn-round btn-round-filled-theme my-5">ورود</button>
-                                        </div>
-                                    </div>
-                                </form>
+    <!-- Login Modal -->
+    <div class="remodal l-modal p-0" data-remodal-id="loginModal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+        <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+
+        <!-- Login Content -->
+        <div>
+            <h1 class="hi-fontSize-20 indigo-text dinar-title text-center m-5">ورود به بهتایم</h1>
+            <p class="text-center mt-2 hi-fontSize-13">قبلا در بهتایم ثبت نام نگرده‌اید؟ <span class="indigo-text m-underLined"><a href="#"> ثبت نام</a></span> </p>
+
+            <!-- Login Fileds -->
+            <div class="row justify-content-center mt-3">
+                <div class="col-7">
+                    <form>
+                        <input class="m-round-input mt-4 grey lighten-4" type="email" placeholder="پست الکترونیکی خود را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="email" placeholder="کلمه عبور خود را وارد کنید">
+                        <label class="custom-control custom-checkbox mt-4">
+                            <input type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description hi-fontSize-12">مرا به خاطر بسپار</span>
+                        </label>
+                        <div class="row justify-content-center">
+                            <div class="col-auto">
+                                <button type="submit" class="m-btn-round btn-round-filled-theme my-5">ورود</button>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Signup Modal -->
-    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="table">
-            <div class="table-cell">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content l-modal">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs grey lighten-4 top-round-20" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link top-rightCornered no-border active hi-fontSize-18" data-toggle="tab" href="#user" role="tab">عضویت کاربر عادی</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link hi-fontSize-18" data-toggle="tab" href="#seller" role="tab">عضویت فروشنده</a>
-                            </li>
-                            <li class="nav-item m-closeModal">
-                                <button class="hi-button-btn1" id="closeModal"><i class="fa fa-close fa-3x"></i> </button>
-                            </li>
-                        </ul>
+    <div class="remodal l-modal p-0" data-remodal-id="signupModal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+        <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs grey lighten-4 top-round-20" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link top-rightCornered no-border active hi-fontSize-18" data-toggle="tab" href="#user" role="tab">عضویت کاربر عادی</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link hi-fontSize-18" data-toggle="tab" href="#seller" role="tab">عضویت فروشنده</a>
+            </li>
+        </ul>
 
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="user" role="tabpanel">
-                                <h1 class="hi-fontSize-20 indigo-text dinar-title text-center m-5">عضویت در بهتایم</h1>
-                                <!-- Login Fileds -->
-                                <form>
-                                    <div class="container-fluid">
-                                        <div class="row mt-3 px-5">
-                                            <div class="col-lg-5">
-                                                <input class="m-round-input mt-4 grey lighten-4" type="text" placeholder="نام و نام خانوادگی خود را وارد کنید">
-                                                <input class="m-round-input mt-4 grey lighten-4" type="email" placeholder="پست الکترونیکی خود را وارد کنید">
-                                                <input class="m-round-input mt-4 grey lighten-4" type="password" placeholder="کلمه عبور خود را وارد کنید">
-                                                <div class="checkbox">
-                                                    <label>
-                                                        <input type="checkbox" class="checkbox style-2 mt-3" checked="checked">
-                                                        <span class="hi-lineHeight-25"><a href="#">حریم شخصی</a> و شرایط استفاده از سرویس های بهتایم را مطالعه نموده و با کلیه موارد موافقم</span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <ul class="hi-fontSize-14">
-                                                    <li>
-                                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i> سریع تر و ساده تر خرید کنید</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i>به سادگی سوابق خریدتان را بررسی کنید</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i> سریع تر و ساده تر خرید کنید</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i>به سادگی سوابق خریدتان را بررسی کنید</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i> سریع تر و ساده تر خرید کنید</p>
-                                                    </li>
-                                                    <li>
-                                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i>به سادگی سوابق خریدتان را بررسی کنید</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-end my-5 px-5">
-                                            <div class="col-auto">
-                                                <button type="submit" class="m-btn-round btn-round-filled-theme px-5">ثبت نام</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane active" id="user" role="tabpanel">
+                <h1 class="hi-fontSize-20 indigo-text dinar-title text-center m-5">عضویت در بهتایم</h1>
+                <!-- Login Fileds -->
+                <form>
+                    <div class="container-fluid">
+                        <div class="row mt-3 px-5">
+                            <div class="col-lg-5">
+                                <input class="m-round-input mt-4 grey lighten-4" type="text" placeholder="نام و نام خانوادگی خود را وارد کنید">
+                                <input class="m-round-input mt-4 grey lighten-4" type="email" placeholder="پست الکترونیکی خود را وارد کنید">
+                                <input class="m-round-input mt-4 grey lighten-4" type="password" placeholder="کلمه عبور خود را وارد کنید">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" class="checkbox style-2 mt-3" checked="checked">
+                                        <span class="hi-lineHeight-25"><a href="#">حریم شخصی</a> و شرایط استفاده از سرویس های بهتایم را مطالعه نموده و با کلیه موارد موافقم</span>
+                                    </label>
+                                </div>
                             </div>
-                            <div class="tab-pane" id="seller" role="tabpanel">
-                                <h1 class="hi-fontSize-20 indigo-text dinar-title text-center m-5">عضویت فروشنده در بهتایم</h1>
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-5 px-5">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="text" placeholder="نام و نام خانوادگی خود را وارد کنید">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="شماره شناسنامه خود را وارد کنید">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="شماره تلفن خود را وارد کنید">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="شماره تلفن ثابت را وارد کنید">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="email" placeholder="پست الکترونیکی خود را وارد کنید">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="password" placeholder="کلمه عبور خود را وارد کنید">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="password" placeholder="کلمه عبور خود را تکرار کنید">
-                                        <fieldset class="form-group mr-4 mt-5">
-                                            <legend class="text-right hi-fontSize-14 grey-text text-darken-2">جنسیت</legend>
-                                            <div class="form-inline mt-4">
-                                                <label class="form-check-label">
-                                                    <input type="radio" class="form-check-input ml-2" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                                    <span class="hi-fontSize-14 mr-5 mr-sm-2">مرد</span>
-                                                </label>
-
-                                                <label class="form-check-label mr-4 hi-fontSize-12">
-                                                    <input type="radio" class="form-check-input ml-2" name="optionsRadios" id="optionsRadios2" value="option2">
-                                                    <span class="hi-fontSize-14 mr-5 mr-sm-2">زن</span>
-                                                </label>
-                                            </div>
-                                        </fieldset>
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox" class="checkbox style-2 mt-3" checked="checked">
-                                                <span class="hi-lineHeight-25 hi-fontSize-13"><a href="#">حریم شخصی</a> و شرایط استفاده از سرویس های بهتایم را مطالعه نموده و با کلیه موارد موافقم</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 px-5">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="کد پستی خود را وارد کنید">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="text" placeholder="نام فروشگاه خود را وارد کنید">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="شماره حساب خود را وارد کنید">
-                                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="کد شناسه صنفی را وارد کنید">
-                                        <textarea id="address" rows="10" class="m-round-input mt-4 grey lighten-4 hi-fontSize-12 p-3" placeholder="آدرس فروشگاه خود را وارد کنید"></textarea>
-
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center my-5 px-5">
-                                    <div class="col-auto">
-                                        <button type="submit" class="m-btn-round btn-round-filled-theme px-5">ثبت نام</button>
-                                    </div>
-                                </div>
+                            <div class="col-lg-7 text-right">
+                                <ul class="hi-fontSize-14">
+                                    <li>
+                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i> سریع تر و ساده تر خرید کنید</p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i>به سادگی سوابق خریدتان را بررسی کنید</p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i> سریع تر و ساده تر خرید کنید</p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i>به سادگی سوابق خریدتان را بررسی کنید</p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i> سریع تر و ساده تر خرید کنید</p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fa fa-circle indigo-text ml-3 hi-lineHeight-40"></i>به سادگی سوابق خریدتان را بررسی کنید</p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <div class="row justify-content-end my-5 px-5">
+                            <div class="col-auto">
+                                <button type="submit" class="m-btn-round btn-round-filled-theme px-5">ثبت نام</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane" id="seller" role="tabpanel">
+                <h1 class="hi-fontSize-20 indigo-text dinar-title text-center m-5">عضویت فروشنده در بهتایم</h1>
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 px-5">
+                        <input class="m-round-input mt-4 grey lighten-4" type="text" placeholder="نام و نام خانوادگی خود را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="کد ملی خود را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="شماره تلفن خود را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="شماره تلفن ثابت را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="email" placeholder="پست الکترونیکی خود را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="password" placeholder="کلمه عبور خود را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="password" placeholder="کلمه عبور خود را تکرار کنید">
+                        <fieldset class="form-group mr-4 mt-5">
+                            <legend class="text-right hi-fontSize-14 grey-text text-darken-2">جنسیت</legend>
+                            <div class="form-inline mt-4">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input ml-2" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                    <span class="hi-fontSize-14 mr-5 mr-sm-2">مرد</span>
+                                </label>
+
+                                <label class="form-check-label mr-4 hi-fontSize-12">
+                                    <input type="radio" class="form-check-input ml-2" name="optionsRadios" id="optionsRadios2" value="option2">
+                                    <span class="hi-fontSize-14 mr-5 mr-sm-2">زن</span>
+                                </label>
+                            </div>
+                        </fieldset>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" class="checkbox style-2 mt-3" checked="checked">
+                                <span class="hi-lineHeight-25 hi-fontSize-13"><a href="#">حریم شخصی</a> و شرایط استفاده از سرویس های بهتایم را مطالعه نموده و با کلیه موارد موافقم</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 px-5">
+                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="کد پستی خود را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="text" placeholder="نام فروشگاه خود را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="شماره حساب خود را وارد کنید">
+                        <input class="m-round-input mt-4 grey lighten-4" type="number" placeholder="کد شناسه صنفی را وارد کنید">
+                        <textarea id="address" rows="10" class="m-round-input mt-4 grey lighten-4 hi-fontSize-12 p-3" placeholder="آدرس فروشگاه خود را وارد کنید"></textarea>
+
+                    </div>
+                </div>
+                <div class="row justify-content-center my-5 px-5">
+                    <div class="col-auto">
+                        <button type="submit" class="m-btn-round btn-round-filled-theme px-5">ثبت نام</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Product Modal -->
+    <div class="remodal l-modal" data-remodal-id="purchaseModal2" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+        <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+        <div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-8 text-right">
+                        <!-- Product Modal Info -->
+                        <h2 class="hi-fontSize-20 hi-lineHeight-30">لپ تاپ 14 اینچی ایسوس مدل ZenBook UX430UA - B</h2>
+                        <h4 class="hi-fontSize-14 indigo-text mt-4">موجود در فروشگاه سونی</h4>
+
+                        <!-- Product Modal Rating -->
+                        <div class="m-card mt-4 py-3 px-1">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-4 pl-0">
+                                        <p class="grey-text text-darken-4 hi-fontSize-14">امتیاز این محصول:</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 25%; height: 5px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <h4 class="hi-fontSize-14 indigo-text"><strong>۴ از ۵</strong></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product Modal Cost -->
+                        <div class="m-card mt-4 py-4 px-1">
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col pl-0">
+                                        <p class="grey-text text-darken-2 hi-fontSize-17">۲۰٪ تخفیف</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="grey-text text-darken-2 line-through hi-fontSize-17">۱.۳۸۰.۰۰۰</p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="grey-text text-darken-4 hi-fontSize-17">۱.۳۲۷.۰۰۰ تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-4 mt-3">
+                        <img class="l-fullPage l-cornered" src="{{asset('images/ps.png')}}">
+                    </div>
+                </div>
+                <div class="row l-rtl">
+                    <div class="col-12 col-md-8 text-right">
+                        <h4 class="hi-fontSize-17 indigo-text mt-4"><strong>توضیحات</strong></h4>
+                        <p class="grey-text text-darken-4 mt-4 hi-lineHeight-30 text-justify hi-fontSize-14">
+                            گوشی «شیائومی می 4 آی» (Xiaomi Mi 4i) ازجمله محصولات باکیفیت و زیبای این شرکت چینی است که به نمایشگری با تراکم پیکسلی بالا برای دیدن فیلم و وب‌گردی مجهز شده است و از دو سیم‌کارت و شبکه‌‌ی 4G پشتیبانی می‌کند؛ همچنین سخت‌افزاری نسبتا قدرتمند برای انجام بازی‌های HD، دوربینی که تصاویری باکیفیت ثبت می‌کند و یک باتری با ظرفیت عالی دارد.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 text-right">
+                        <h4 class="hi-fontSize-17 indigo-text mt-4 mb-4"><strong>برچسب ها</strong></h4>
+                        <span class="badge badge-pill badge-default grey lighten-3 grey-text text-darken-4 hi-fontSize-12 m-2 px-4 py-3">کالای دیجیتال</span>
+                        <span class="badge badge-pill badge-default grey lighten-3 grey-text text-darken-4 hi-fontSize-12 m-2 px-4 py-3">دستگاه بازی</span>
+                        <span class="badge badge-pill badge-default grey lighten-3 grey-text text-darken-4 hi-fontSize-12 m-2 px-4 py-3">Sony</span>
+                        <span class="badge badge-pill badge-default grey lighten-3 grey-text text-darken-4 hi-fontSize-12 m-2 px-4 py-3">کنسول بازی</span>
+                    </div>
+                </div>
+
+                <div class="row l-ltr">
+                    <div class="col-auto">
+                        <button class="m-btn-round btn-round-filled-theme hi-shadow-2 py-2 white-text hi-lineHeight-30">
+                            افزودن به سبد خرید<i class="fa white-text fa-cart-plus hi-fontSize-22 ml-3"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </div><!-- #wrapper -->
 
 
@@ -1712,6 +1780,7 @@
 
 <script src="{{ asset('Resources/js/Jquery/jquery-3.2.0.min.js') }}"></script>
 <script src="{{ asset('Resources/js/Jquery/jquery-2.2.4.min.js') }}"></script>
+<script src="{{ asset('js/modal/remodal.js') }}"></script>
 <script src="{{ asset('Resources/js/Bootstrap/tether.min.js') }}"></script>
 <script src="{{ asset('Resources/js/Bootstrap/bootstrap.min.js') }}"></script>
 <script src="{{ asset('Hi_Framework/css/Animation/Other Libraries/Waves/waves.min.js') }}"></script>
