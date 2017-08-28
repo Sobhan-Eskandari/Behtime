@@ -11,52 +11,48 @@
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-
 Route::get('/', function () {
     return view('site.index');
 });
 
 Route::get('/products', function () {
-    return view('site.all-products');
+    return view('site.products');
 });
 
 Route::get('/stores', function () {
-    return view('site.all-stores');
+    return view('site.stores');
 });
 
-Route::get('/workus', function () {
-    return view('site.single-page.work-with-us');
+Route::get('/work-with-us', function () {
+    return view('site.work-with-us');
 });
 
 Route::get('/rules', function () {
-    return view('site.single-page.rules');
+    return view('site.rules');
 });
 
-Route::get('/aboutus', function () {
-    return view('site.aboutus');
+Route::get('/about', function () {
+    return view('site.about');
 });
 
-Route::get('/contactus', function () {
-    return view('site.contactus');
+Route::get('/contact', function () {
+    return view('site.contact');
 });
 
-Route::get('/shekaiat', function () {
-    return view('site.shekaiat');
+Route::get('/complaints', function () {
+    return view('site.complaints');
 });
 
-Route::get('/buyerinfo', function () {
-    return view('site.buyer-info');
+Route::get('/buyer-info', function () {
+    return view('site.order.buyer-info');
 });
 
-Route::get('/fullinfo', function () {
-    return view('site.fill-userInfo');
+Route::get('/full-info', function () {
+    return view('site.profile.fill-userInfo');
 });
 
 Route::get('/factor', function () {
-    return view('site.factor');
+    return view('site.order.factor');
 });
 
 Route::get('/cart', function () {
@@ -64,11 +60,11 @@ Route::get('/cart', function () {
 });
 
 Route::get('/faq', function () {
-    return view('site.single-page.faq');
+    return view('site.faq');
 });
 
-Route::get('/market', function () {
-    return view('site.market');
+Route::get('/shop', function () {
+    return view('site.shop');
 });
 
 Route::get('/profile/password', function (){
