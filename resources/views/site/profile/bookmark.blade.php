@@ -5,8 +5,8 @@
     <!-- BreadCrumbs -->
     <div class="container">
         <ol class="breadcrumb mt-5">
-            <li class="breadcrumb-item"><a href="#">فروشگاه اینترنتی بهتایم</a></li>
-            <li class="breadcrumb-item active"><a href="#">لیست علاقه مندی ها</a></li>
+            <li class="breadcrumb-item"><a href="/">فروشگاه اینترنتی بهتایم</a></li>
+            <li class="breadcrumb-item active"><a href="/profile/bookmark">لیست علاقه مندی ها</a></li>
         </ol>
     </div>
 

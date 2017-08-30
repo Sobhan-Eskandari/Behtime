@@ -5,8 +5,8 @@
     <!-- BreadCrumbs -->
     <div class="container">
         <ol class="breadcrumb mt-5">
-            <li class="breadcrumb-item"><a href="#">فروشگاه اینترنتی بهتایم</a></li>
-            <li class="breadcrumb-item active"><a href="#">پاسخ به پرسش های متداول</a></li>
+            <li class="breadcrumb-item"><a href="/">فروشگاه اینترنتی بهتایم</a></li>
+            <li class="breadcrumb-item active"><a href="/faq">پاسخ به پرسش های متداول</a></li>
         </ol>
     </div>
 

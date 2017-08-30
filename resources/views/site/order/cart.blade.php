@@ -5,8 +5,8 @@
     <!-- BreadCrumbs -->
     <div class="container">
         <ol class="breadcrumb mt-5">
-            <li class="breadcrumb-item"><a href="#">فروشگاه اینترنتی بهتایم</a></li>
-            <li class="breadcrumb-item active"><a href="#">سبد خرید</a></li>
+            <li class="breadcrumb-item"><a href="/">فروشگاه اینترنتی بهتایم</a></li>
+            <li class="breadcrumb-item active"><a href="/cart">سبد خرید</a></li>
         </ol>
     </div>
 
@@ -29,7 +29,9 @@
 
                 <div class="row justify-content-center mt-5">
                     <div class="col-auto">
-                        <button class="m-btn-round white-text py-3 indigo">ادامه و ثبت سفارش <i class="fa fa-chevron-left"></i> </button>
+                        <a href="/fill-info">
+                            <button class="m-btn-round white-text py-3 indigo">ادامه و ثبت سفارش <i class="fa fa-chevron-left"></i> </button>
+                        </a>
                     </div>
                 </div>
 
@@ -143,9 +145,13 @@
 
         <div class="row justify-content-center mt-5">
             <div class="col-lg-3">
-                <button class="m-btn-round white-text py-3 indigo">ادامه و ثبت سفارش <i class="fa fa-chevron-left"></i> </button>
+                <a href="/fill-info">
+                    <button class="m-btn-round white-text py-3 indigo">ادامه و ثبت سفارش <i class="fa fa-chevron-left"></i> </button>
+                </a>
 
-                <button class="m-btn-round btn-round-filled-theme py-3 mt-5">بازگشت به صفحه اصلی</button>
+                <a href="/">
+                    <button class="m-btn-round btn-round-filled-theme py-3 mt-5">بازگشت به صفحه اصلی</button>
+                </a>
             </div>
         </div>
 

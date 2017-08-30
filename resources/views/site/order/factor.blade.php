@@ -5,8 +5,8 @@
     <!-- BreadCrumbs -->
     <div class="container">
         <ol class="breadcrumb mt-5">
-            <li class="breadcrumb-item"><a href="#">فروشگاه اینترنتی بهتایم</a></li>
-            <li class="breadcrumb-item active"><a href="#">فیش خرید</a></li>
+            <li class="breadcrumb-item"><a href="/">فروشگاه اینترنتی بهتایم</a></li>
+            <li class="breadcrumb-item active"><a href="/factor">فاکتور خرید</a></li>
         </ol>
     </div>
 
@@ -16,7 +16,7 @@
             <div class="col-12 text-center">
                 <div class="row text-center">
                     <div class="col-12">
-                        <h1 class="hi-fontSize-23 green-text dinar-title">فیش خرید شما در بهتایم</h1>
+                        <h1 class="hi-fontSize-23 green-text dinar-title">فاکتور خرید شما در بهتایم</h1>
                         <hr class="m-fullLine green-line" style="width: 7%">
                     </div>
                 </div>

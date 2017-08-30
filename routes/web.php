@@ -47,7 +47,7 @@ Route::get('/buyer-info', function () {
     return view('site.order.buyer-info');
 });
 
-Route::get('/full-info', function () {
+Route::get('/fill-info', function () {
     return view('site.profile.fill-userInfo');
 });
 
@@ -56,7 +56,7 @@ Route::get('/factor', function () {
 });
 
 Route::get('/cart', function () {
-    return view('site.cart');
+    return view('site.order.cart');
 });
 
 Route::get('/faq', function () {
@@ -64,7 +64,7 @@ Route::get('/faq', function () {
 });
 
 Route::get('/shop', function () {
-    return view('site.shop');
+    return view('site.order.shop');
 });
 
 Route::get('/profile/password', function (){

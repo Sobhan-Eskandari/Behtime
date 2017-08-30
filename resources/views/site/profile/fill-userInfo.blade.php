@@ -5,8 +5,8 @@
     <!-- BreadCrumbs -->
     <div class="container">
         <ol class="breadcrumb mt-5">
-            <li class="breadcrumb-item"><a href="#">فروشگاه اینترنتی بهتایم</a></li>
-            <li class="breadcrumb-item active"><a href="#">تکمیل اطلاعات کاربری</a></li>
+            <li class="breadcrumb-item"><a href="/">فروشگاه اینترنتی بهتایم</a></li>
+            <li class="breadcrumb-item active"><a href="/fill-info">تکمیل اطلاعات کاربری</a></li>
         </ol>
     </div>
 
@@ -94,7 +94,9 @@
 
                                 <div class="row justify-content-center mt-5">
                                     <div class="col-auto">
-                                        <button type="submit" class="m-btn-round white-text py-3 px-5 indigo">ثبت اطلاعات</button>
+                                        <a href="/buyer-info">
+                                            <button type="button" class="m-btn-round white-text py-3 px-5 indigo">ثبت اطلاعات</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

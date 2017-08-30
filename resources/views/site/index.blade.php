@@ -26,29 +26,33 @@
                     <div class="carousel" data-flickity='{ "contain": true,"pageDots": false,"cellAlign": "left"}'>
                         @for($i=0; $i < 10; $i++)
                             <div class="topStores-carousel-cell">
-                                <div class="topSore-card">
-                                    <img class="l-fullPage" src="{{asset('images/mark-1.jpeg')}}">
-                                    <div class="container-fluid">
-                                        <div class="row justify-content-between align-items-center topSore-card-name px-3">
-                                            <div class="col-auto">
-                                                <h2 class="">نام فروشگاه</h2>
-                                            </div>
-                                            <div class="col-auto">
-                                                <p class="yellow-text text-darken-2 hi-fontSize-14">
-                                                    <i class="fa fa-star"></i>
-                                                    ۳.۹
-                                                </p>
+                                <a href="/shop">
+                                    <div class="topSore-card">
+                                        <img class="l-fullPage" src="{{asset('images/mark-1.jpeg')}}">
+                                        <div class="container-fluid">
+                                            <div class="row justify-content-between align-items-center topSore-card-name px-3">
+                                                <div class="col-auto">
+                                                    <h2 class="">نام فروشگاه</h2>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <p class="yellow-text text-darken-2 hi-fontSize-14">
+                                                        <i class="fa fa-star"></i>
+                                                        ۳.۹
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         @endfor
                     </div>
 
                     <div class="row justify-content-center mt-4">
                         <div class="col-auto">
-                            <button class="m-btn-round btn-round-filled-theme hi-shadow-1 hi-fontSize-14">فروشگاه های بیشتر</button>
+                            <a href="/stores">
+                                <button class="m-btn-round btn-round-filled-theme hi-shadow-1 hi-fontSize-14">فروشگاه های بیشتر</button>
+                            </a>
                         </div>
                     </div>
 
@@ -113,7 +117,10 @@
 
                     <div class="row justify-content-center mt-4 mt-md-0">
                         <div class="col-auto">
-                            <button class="m-btn-round filled-Indigo hi-shadow-1">محصولات بیشتر</button>
+                            <a href="/products">
+                                <button class="m-btn-round filled-Indigo hi-shadow-1">محصولات بیشتر</button>
+                            </a>
+
                         </div>
                     </div>
                 </div>

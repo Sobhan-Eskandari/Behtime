@@ -38,7 +38,7 @@
 
                     <div class="col-xl-2 col-lg-3 col-sm-3 col-6 px-5">
                         <div class="m-search">
-                            <a href="#">
+                            <a href="/cart">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-xl-4 col-4 pl-0 text-left">
@@ -70,7 +70,7 @@
                     </div>
 
                     <div class="col-xl-2 col-lg-3 col-sm-3 col-6">
-                        <a href="#"><img class="hi-size-4p" src="{{asset('images/logo.png')}}"></a>
+                        <a href="/"><img class="hi-size-4p" src="{{asset('images/logo.png')}}"></a>
                     </div>
 
                     <div class="col-xl-2 col-lg-3 col-sm-4 col-6 l-ltr">
@@ -1239,7 +1239,7 @@
         @yield('content')
 
         <!-- Social Media Icons -->
-            <div class="container-fluid indigo">
+            <div class="container-fluid indigo mt-5">
                 <div class="row justify-content-center py-3">
                     <div class="col-auto mx-4">
                         <button class="hi-button-btn1">
@@ -1268,11 +1268,11 @@
                             <!-- Footer List -->
                             <div class="col-lg-4">
                                 <ul class="footer-lists">
-                                    <li><a href="#">بهتایم</a></li>
-                                    <li><a href="#">درباره ما</a></li>
-                                    <li><a href="#">تماس با ما</a></li>
-                                    <li><a href="#">همکاری با ما</a></li>
-                                    <li><a href="#">قوانین و مقررات</a></li>
+                                    <li><a href="/">بهتایم</a></li>
+                                    <li><a href="/about">درباره ما</a></li>
+                                    <li><a href="/contact">تماس با ما</a></li>
+                                    <li><a href="/work-with-us">همکاری با ما</a></li>
+                                    <li><a href="rules">قوانین و مقررات</a></li>
                                 </ul>
                             </div>
 
@@ -1280,7 +1280,7 @@
                             <div class="col-lg-4">
                                 <ul class="footer-lists">
                                     <li><a href="#">خدمات مشتریان</a></li>
-                                    <li><a href="#">پاسخ به پرسش های متداول</a></li>
+                                    <li><a href="/faq">پاسخ به پرسش های متداول</a></li>
                                     <li><a href="#">رویه های بازگرداندن کالا</a></li>
                                     <li><a href="#">شرایط استفاده</a></li>
                                     <li><a href="#">حریم خصوصی</a></li>

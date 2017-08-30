@@ -4,8 +4,8 @@
 
     <div class="container">
         <ol class="breadcrumb mt-5">
-            <li class="breadcrumb-item"><a href="#">فروشگاه اینترنتی بهتایم</a></li>
-            <li class="breadcrumb-item"><a href="#">تکمیل اطلاعات کاربری</a></li>
+            <li class="breadcrumb-item"><a href="/">فروشگاه اینترنتی بهتایم</a></li>
+            <li class="breadcrumb-item"><a href="/fill-info">تکمیل اطلاعات کاربری</a></li>
             <li class="breadcrumb-item active">اطلاعات سفارش گیرنده</li>
         </ol>
     </div>
@@ -76,7 +76,9 @@
 
                                 <div class="row justify-content-center mt-5">
                                     <div class="col-auto">
-                                        <button class="m-btn-round white-text py-3 indigo">ثبت اطلاعات و ادامه خرید <i class="fa fa-chevron-left"></i> </button>
+                                        <a href="/factor">
+                                            <button class="m-btn-round white-text py-3 indigo">ثبت اطلاعات و ادامه خرید <i class="fa fa-chevron-left"></i> </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
