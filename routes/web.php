@@ -59,8 +59,32 @@ Route::get('/cart', function () {
     return view('site.order.cart');
 });
 
+Route::get('/ersalesefaresh', function () {
+    return view('site.ersale_sefaresh');
+});
+
 Route::get('/faq', function () {
     return view('site.faq');
+});
+
+Route::get('/bazgashtekala', function () {
+    return view('site.bazgardandan_kala');
+});
+
+Route::get('/sharaiet', function () {
+    return view('site.sharaiete_estefade');
+});
+
+Route::get('/sabtesefaresh', function () {
+    return view('site.sabte_sefaresh');
+});
+
+Route::get('/shivepardakht', function () {
+    return view('site.shivepardakht');
+});
+
+Route::get('/harimkhosoosi', function () {
+    return view('site.harim_khosoosi');
 });
 
 Route::get('/shop', function () {

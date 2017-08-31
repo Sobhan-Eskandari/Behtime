@@ -1281,9 +1281,9 @@
                                 <ul class="footer-lists">
                                     <li><a href="#">خدمات مشتریان</a></li>
                                     <li><a href="/faq">پاسخ به پرسش های متداول</a></li>
-                                    <li><a href="#">رویه های بازگرداندن کالا</a></li>
-                                    <li><a href="#">شرایط استفاده</a></li>
-                                    <li><a href="#">حریم خصوصی</a></li>
+                                    <li><a href="/bazgashtekala">رویه های بازگرداندن کالا</a></li>
+                                    <li><a href="/sharaiet">شرایط استفاده</a></li>
+                                    <li><a href="/harimkhosoosi">حریم خصوصی</a></li>
                                 </ul>
                             </div>
 
@@ -1291,9 +1291,9 @@
                             <div class="col-lg-4">
                                 <ul class="footer-lists">
                                     <li><a href="#">راهنمای خرید از بهتایم</a></li>
-                                    <li><a href="#">ثبت سفارش</a></li>
-                                    <li><a href="#">رویه های ارسال سفارش</a></li>
-                                    <li><a href="#">شیوه های پرداخت</a></li>
+                                    <li><a href="/sabtesefaresh">ثبت سفارش</a></li>
+                                    <li><a href="/ersalesefaresh">رویه های ارسال سفارش</a></li>
+                                    <li><a href="/shivepardakht">شیوه های پرداخت</a></li>
                                 </ul>
                             </div>
 
@@ -1557,7 +1557,7 @@
         <!-- Login Content -->
         <div>
             <h1 class="hi-fontSize-20 indigo-text dinar-title text-center m-5">ورود به بهتایم</h1>
-            <p class="text-center mt-2 hi-fontSize-13">قبلا در بهتایم ثبت نام نگرده‌اید؟ <span class="indigo-text m-underLined"><a href="#"> ثبت نام</a></span> </p>
+            <p class="text-center mt-2 hi-fontSize-13">قبلا در بهتایم ثبت نام نکرده‌اید؟ <span class="indigo-text m-underLined"><a href="#"> ثبت نام</a></span> </p>
 
             <!-- Login Fileds -->
             <div class="row justify-content-center mt-3">
