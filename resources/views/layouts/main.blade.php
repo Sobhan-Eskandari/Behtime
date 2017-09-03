@@ -1304,7 +1304,7 @@
                     <div class="col-md-4">
                         <div class="row align-items-center">
                             <div class="col-6">
-                                <img class="hi-size-13" src="{{asset('images/enamad.png')}}">
+                                {{--<img class="hi-size-13" src="{{asset('images/enamad.png')}}">--}}
                             </div>
                             <div class="col-4">
                                 <img class="img-fluid" src="{{asset('images/logo.png')}}">
